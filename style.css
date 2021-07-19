@@ -1,0 +1,28 @@
+header .row img{
+    height: 450px;
+}
+.col-lg-7{
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+}
+h1{
+    color: rgb(195, 0, 255);
+}
+p{
+    text-align: justify;
+}
+.categorize img{
+    width: 55px;
+}
+@media screen and (max-width: 991px) {
+    .col-lg-7{
+        padding-right: 30px;
+    }
+}
+@media only screen and (min-width:992px) {
+   .row .btn{
+       margin-left: 130px;
+   }
+}
