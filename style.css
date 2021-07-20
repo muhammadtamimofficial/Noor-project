@@ -8,6 +8,9 @@ ul{
 .slider{
     margin-top: 95px;
 }
+.row a{
+    text-decoration: none;
+}
 header .row img{
     height: 450px;
 }
