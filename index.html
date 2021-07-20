@@ -18,8 +18,8 @@
 <header class="mb-5">
     <!-- Navbar  -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">
+        <div class="container bg-primary">
+            <a class="navbar-brand" href="index.html">
                 <img src="img/download (1).png" alt="" width="70" height="30">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -30,16 +30,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Daily pack</a>
+                        <a class="nav-link" href="#daily">Daily pack</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Weekly pack</a>
+                        <a class="nav-link" href="#week">Weekly pack</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">monthly pack</a>
+                        <a class="nav-link" href="#month">Monthly pack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#submit">Submit</a>
                     </li>
                 </ul>
             </div>
@@ -152,7 +155,7 @@
             </div>
         </div>
     </section>
-    <section class="container mb-5">
+    <section id="daily" class="container mb-5">
         <h1>Daily packages </h1>
         <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-4 mt-3">
             <div class="col">
@@ -203,7 +206,7 @@
         </div>
     </section>
 
-    <section class="container mb-5">
+    <section class="container mb-5" id="week">
         <h1>Week packages </h1>
         <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-4 mt-3">
             <div class="col">
@@ -253,7 +256,7 @@
             </div>
         </div>
     </section>
-    <section class="container mb-5">
+    <section class="container mb-5" id="month">
         <h1>Monthly packages </h1>
         <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-4 mt-3">
             <div class="col">
@@ -303,7 +306,23 @@
             </div>
         </div>
     </section>
+    <section class="container text-center bg-info rounded pb-3 mb-5" id="submit">
+        <div class="py-3">
+            <h2 class="text-light">LET'S STAY IN TOUCH ON YOUR SUBSCRIBED</h2>
+            <p class="text-center">Give me your Precious Comments</p>
+            <form action="#">
+                <input placeholder="E-mail" type="email" name="email" class="rounded"> <br>
+                <textarea class="my-2" name="comment" id="" cols="23" rows="8" placeholder="Your precious Comment"
+                    class="rounded"></textarea>
+                <br>
+                <button type="submit" class="bg-primary rounded">SUBSCRIBED</button>
+            </form>
+        </div>
+    </section>
 </main>
+<footer>
+    <p class="text-center">©copy right by Cleaning Care and mode with Muhammad Tamim.</p>
+</footer>
 <!-- BOOTSTARP   SCRIPT -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
