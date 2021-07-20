@@ -16,9 +16,23 @@ p{
 .categorize img{
     width: 55px;
 }
-.third-content-two :hover{
+.daily:hover{
     transform: scale(1.1);
     transition: transform 1s;
+}
+.col img:hover{
+    transform: scale(1.4);
+    transition: transform 1s;
+}
+.img-overflow{
+    overflow: hidden;
+}
+.third-content-two :hover{
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+.social-media li a{
+    color: rgb(47, 45, 146);
 }
 .social-media{
     display: flex;
