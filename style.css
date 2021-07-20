@@ -16,6 +16,19 @@ p{
 .categorize img{
     width: 55px;
 }
+.third-content-two :hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-media li{
+    list-style: none;
+    padding-left: 10px;
+    font-size: 30px;
+}
 @media screen and (max-width: 991px) {
     .col-lg-7{
         padding-right: 30px;
