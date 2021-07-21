@@ -44,6 +44,9 @@ p{
     transform: scale(1.2);
     transition: transform 1s;
 }
+.social-media li a :hover{
+    color: rgb(218, 8, 255);
+}
 .social-media li a{
     color: rgb(47, 45, 146);
 }
